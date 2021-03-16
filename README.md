@@ -12,4 +12,7 @@
           * 📄style.css
         * 📁js
 
+
+### Home Page
+![]()
 Any other important guideline would be displayed here.
