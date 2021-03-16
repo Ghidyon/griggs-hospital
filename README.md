@@ -1,19 +1,9 @@
 # Griggs Specialist Hospital
 
 ### Folder Structure
-* 📂 **Griggs Specialist Hospital**
-    * 📄index.html
-    * 📂assets
-        * 📂pages
-          * 📄about.html
-        * 📁images
-        * 📁fonts
-        * 📂styles
-          * 📄style.css
-        * 📁js
-
+📂 **Griggs Specialist Hospital**
 ```bash
-C:.
+└───index.html
 └───assets
     ├───fonts
     ├───images
@@ -25,4 +15,4 @@ C:.
 ### Home Page
 ![Home Page](/assets/images/homepage.png "Griggs Homepage")
 
-Any other important guideline would be displayed here.
+_Any other important guideline would be displayed here._
