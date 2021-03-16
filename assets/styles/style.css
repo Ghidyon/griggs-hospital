@@ -11,9 +11,15 @@ body {
     background-color: var(--priColor);
 }
 
-/* .shadow {
-    box-shadow: 1px 0 2px rgba(0, 0, 0, 0.25);
-} */
+.outer-neu-shadow {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25),
+                -4px -4px 8px rgb(255, 255, 255);
+}
+
+.inner-neu-shadow {
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25),
+                inset -2px -2px 4px rgb(255, 255, 255);
+}
 
 /* Nav Styling */
 .nav-overlay {
@@ -22,6 +28,17 @@ body {
     top: -20px;
     /* height: 300px; */
     /* object-fit: cover; */
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: inherit !important;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15),
+                inset -2px -2px 4px rgb(255, 255, 255);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    text-decoration: none;
+    background-color: inherit !important;
 }
 
 
