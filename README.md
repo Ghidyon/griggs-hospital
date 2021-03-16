@@ -12,7 +12,17 @@
           * 📄style.css
         * 📁js
 
+```bash
+C:.
+└───assets
+    ├───fonts
+    ├───images
+    ├───js
+    ├───pages
+    └───styles
+```
 
 ### Home Page
-![]()
+![Home Page](/assets/images/homepage.png "Griggs Homepage")
+
 Any other important guideline would be displayed here.
