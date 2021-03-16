@@ -5,11 +5,11 @@
     * 📄index.html
     * 📂assets
         * 📂pages
-        * 📄about.html
+          * 📄about.html
         * 📁images
         * 📁fonts
         * 📂styles
-        * 📄style.css
+          * 📄style.css
         * 📁js
 
 Any other important guideline would be displayed here.
