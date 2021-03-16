@@ -1,0 +1,55 @@
+:root {
+    --priColor: #EBF3FF;
+}
+
+body {
+    background-color: var(--priColor);
+}
+
+/* Utilities */
+.primary-color {
+    background-color: var(--priColor);
+}
+
+/* .shadow {
+    box-shadow: 1px 0 2px rgba(0, 0, 0, 0.25);
+} */
+
+/* Nav Styling */
+.nav-overlay {
+    position: absolute;
+    width: 100%;
+    top: -20px;
+    /* height: 300px; */
+    /* object-fit: cover; */
+}
+
+
+
+
+
+/* Responsive Styling */
+
+@media (min-width: 576px) {
+    .nav-overlay {
+        top: -50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-overlay {
+        top: -100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav-overlay {
+        top: -150px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nav-overlay {
+        top: -200px;
+    }
+}
