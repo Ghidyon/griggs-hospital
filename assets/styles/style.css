@@ -46,6 +46,21 @@ body {
     border-radius: .6rem;
 }
 
+.sub-heading {
+    position: relative;
+}
+
+.sub-heading::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -7px;
+    width: 40px;
+    height: 3px;
+    border-radius: 20px;
+    background-color: #FF8F00;
+}
+
 /* Nav Styling */
 .nav-overlay {
     position: absolute;
@@ -77,7 +92,15 @@ body {
     transform: rotateZ(45deg)
 }
 
+/* Blog */
+.blog-image {
+    height: 200px;
+}
 
+.blog-image img {
+    object-fit: cover;
+    height: 100%;
+}
 
 
 
