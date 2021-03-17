@@ -1,12 +1,17 @@
 :root {
-    --priColor: #EBF3FF;
+    --bgColor: #EBF3FF;
+    --priColor: #00928F;
 }
 
 body {
-    background-color: var(--priColor);
+    background-color: var(--bgColor);
 }
 
 /* Utilities */
+.bg-color {
+    background-color: var(--bgColor);
+}
+
 .primary-color {
     background-color: var(--priColor);
 }
@@ -21,13 +26,23 @@ body {
                 inset -2px -2px 4px rgb(255, 255, 255);
 }
 
+.neu-shadow {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25),
+                -4px -4px 8px rgb(255, 255, 255);
+    transition: box-shadow .3s ease;
+}
+
+.neu-shadow:hover {
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25),
+                inset -2px -2px 4px rgb(255, 255, 255, 0.25);
+}
+
 /* Nav Styling */
 .nav-overlay {
     position: absolute;
     width: 100%;
     top: -20px;
-    /* height: 300px; */
-    /* object-fit: cover; */
+    z-index: -1000;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
@@ -39,6 +54,18 @@ body {
 .dropdown-item.active, .dropdown-item:active {
     text-decoration: none;
     background-color: inherit !important;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 0 .4em .4em;
+    vertical-align: middle;
+    content: "";
+    border: .3em solid;
+    border-width: 0 .15em .15em 0;
+    transform: rotateZ(45deg)
 }
 
 
