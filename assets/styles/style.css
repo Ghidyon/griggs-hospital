@@ -102,6 +102,10 @@ body {
     height: 100%;
 }
 
+/* Footer */
+footer {
+    background-color: #4A5568;
+}
 
 
 /* Responsive Styling */
