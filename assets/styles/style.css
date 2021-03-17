@@ -26,15 +26,24 @@ body {
                 inset -2px -2px 4px rgb(255, 255, 255);
 }
 
-.neu-shadow {
+.btn-neu-shadow, .neu-shadow {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25),
                 -4px -4px 8px rgb(255, 255, 255);
-    transition: box-shadow .3s ease;
+    cursor: pointer;
 }
 
-.neu-shadow:hover {
+.btn-neu-shadow:hover {
     box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25),
                 inset -2px -2px 4px rgb(255, 255, 255, 0.25);
+}
+
+.neu-shadow.active, .neu-shadow:hover {
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25),
+                inset -2px -2px 4px rgb(255, 255, 255);
+}
+
+.rounded-4 {
+    border-radius: .6rem;
 }
 
 /* Nav Styling */
