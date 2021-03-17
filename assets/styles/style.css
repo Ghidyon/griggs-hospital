@@ -7,6 +7,10 @@ body {
     background-color: var(--bgColor);
 }
 
+* {
+    list-style: none;
+}
+
 /* Utilities */
 .bg-color {
     background-color: var(--bgColor);
@@ -107,6 +111,10 @@ footer {
     background-color: #4A5568;
 }
 
+.footer-links li {
+    padding: 0 !important;
+    margin: 0!important;
+}
 
 /* Responsive Styling */
 
