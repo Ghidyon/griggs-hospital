@@ -124,6 +124,10 @@ body {
     width: 40px !important;
 }
 
+.logo-image img {
+    width: 100% !important;
+}
+
 .dropdown-item:hover, .dropdown-item:focus {
     background-color: inherit !important;
     box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15),
