@@ -3,15 +3,53 @@
     --priColor: #00928F;
 }
 
-body {
-    background-color: var(--bgColor);
+/* Fonts */
+@font-face {
+    font-family: 'Jeko Regular', sans-serif;
+    src: url(../fonts/Jeko/FontsFree-Net-Jeko-Regular.ttf);
 }
 
-* {
+@font-face {
+    font-family: 'Jeko Semi Bold', sans-serif;
+    src: url(../fonts/Jeko/FontsFree-Net-Jeko-Semi-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Jeko Variable', sans-serif;
+    src: url(../fonts/Jeko/FontsFree-Net-Jeko-Variable.ttf);
+}
+
+@font-face {
+    font-family: 'Helvetica Now Display ExtraBold', sans-serif;
+    src: url(../fonts/Helvetica_Now/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: 'Helvetica Now Display Light', sans-serif;
+    src: url(../fonts/Helvetica_Now/HelveticaNowDisplay/HelveticaNowDisplay-Light.otf);
+}
+
+body {
+    background-color: var(--bgColor);
     list-style: none;
+    font-family: "Helvetica Now Display" !important;
+    /* font-weight: 700 */
 }
 
 /* Utilities */
+.font-jeko-variable {
+    font-family: 'Jeko Variable', sans-serif;
+}
+.font-jeko-variable {
+    font-family: 'Jeko Variable', sans-serif;
+}
+.font-jeko-variable {
+    font-family: 'Jeko Variable', sans-serif;
+}
+.font-jeko-variable {
+    font-family: 'Jeko Variable', sans-serif;
+}
+
 .bg-color {
     background-color: var(--bgColor);
 }
