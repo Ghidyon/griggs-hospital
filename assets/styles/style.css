@@ -5,17 +5,12 @@
 
 /* Fonts */
 @font-face {
-    font-family: 'Jeko Regular', sans-serif;
-    src: url(../fonts/Jeko/FontsFree-Net-Jeko-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Jeko Semi Bold', sans-serif;
+    font-family: 'Jeko SemiBold', sans-serif;
     src: url(../fonts/Jeko/FontsFree-Net-Jeko-Semi-Bold.ttf);
 }
 
 @font-face {
-    font-family: 'Jeko Variable', sans-serif;
+    font-family: 'JekoVariable', sans-serif;
     src: url(../fonts/Jeko/FontsFree-Net-Jeko-Variable.ttf);
 }
 
@@ -25,29 +20,43 @@
 }
 
 @font-face {
+    font-family: 'Helvetica Now Display Bold', sans-serif;
+    src: url(../fonts/Helvetica_Now/HelveticaNowDisplay/HelveticaNowDisplay-Bold.otf);
+}
+
+@font-face {
     font-family: 'Helvetica Now Display Light', sans-serif;
     src: url(../fonts/Helvetica_Now/HelveticaNowDisplay/HelveticaNowDisplay-Light.otf);
 }
 
 body {
-    background-color: var(--bgColor);
+    background-color: var(--bgColor);    /* color: #000 !important; */
+}
+
+*{
     list-style: none;
-    font-family: "Helvetica Now Display" !important;
-    /* font-weight: 700 */
 }
 
 /* Utilities */
 .font-jeko-variable {
-    font-family: 'Jeko Variable', sans-serif;
+    font-family: 'JekoVariable', sans-serif;
 }
-.font-jeko-variable {
-    font-family: 'Jeko Variable', sans-serif;
+
+.font-jeko-semi-bold {
+    font-family: 'Jeko-SemiBold', sans-serif !important;
+    font-weight: 500 !important;
 }
-.font-jeko-variable {
-    font-family: 'Jeko Variable', sans-serif;
+
+.font-helvetica-bold {
+    font-family: 'Helvetica Now Display Bold', sans-serif !important;
 }
-.font-jeko-variable {
-    font-family: 'Jeko Variable', sans-serif;
+
+.font-helvetica-xbold {
+    font-family: 'Helvetica Now Display Extrabold', sans-serif !important;
+}
+
+.font-helvetica-light {
+    font-family: 'Helvetica Now Display Light', sans-serif !important;
 }
 
 .bg-color {
@@ -111,6 +120,10 @@ body {
     z-index: -1000;
 }
 
+.logo-image {
+    width: 40px;
+}
+
 .dropdown-item:hover, .dropdown-item:focus {
     background-color: inherit !important;
     box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15),
@@ -129,9 +142,9 @@ body {
     margin: 0 0 .4em .4em;
     vertical-align: middle;
     content: "";
-    border: .3em solid;
+    border: .3em solid #adb5bd;
     border-width: 0 .15em .15em 0;
-    transform: rotateZ(45deg)
+    transform: rotateZ(45deg);
 }
 
 /* Blog */
