@@ -96,7 +96,7 @@ body {
 
 /* Text Size */
 .fs-xlarge {
-    font-size: 55px !important;
+    font-size: 30px !important;
 }
 
 /* Background and Colors */
@@ -154,12 +154,20 @@ body {
     background-color: #FF8F00;
 }
 
+.w-md-75 {
+    width: 75%;
+}
+
 /* Nav Styling */
 .nav-overlay {
     position: absolute;
     width: 100%;
     top: -20px;
     z-index: -1000;
+}
+
+.logo {
+    width: 30px;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
@@ -224,6 +232,10 @@ footer {
 @media (min-width: 768px) {
     .nav-overlay {
         top: -35px !important;
+    }
+
+    .logo {
+        width: 40px;
     }
 
     .w-md-75 {
