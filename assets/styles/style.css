@@ -1,3 +1,7 @@
+*{
+    list-style: none;
+}
+
 :root {
     --bgColor: #EBF3FF;
     --priColor: #00928F;
@@ -63,11 +67,8 @@ body {
     font-weight: normal;
 }
 
-*{
-    list-style: none;
-}
-
-/* Utilities */
+/* ######### Utilities ########## */
+/* Fonts */
 .font-helvetica-regular {
     font-family: 'Helvetica Now Text', sans-serif;
     font-weight: normal;
@@ -93,6 +94,12 @@ body {
     letter-spacing: 1px;
 }
 
+/* Text Size */
+.fs-xlarge {
+    font-size: 55px !important;
+}
+
+/* Background and Colors */
 .bg-color {
     background-color: var(--bgColor);
 }
@@ -101,14 +108,15 @@ body {
     background-color: var(--priColor);
 }
 
+/* Neumorphic Design */
 .outer-neu-shadow {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25),
                 -4px -4px 8px rgb(255, 255, 255);
 }
 
-.inner-neu-shadow {
-    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25),
-                inset -2px -2px 4px rgb(255, 255, 255);
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+                -2px -2px 4px rgb(255, 255, 255);
 }
 
 .btn-neu-shadow, .neu-shadow {
@@ -201,24 +209,66 @@ footer {
 
 @media (min-width: 576px) {
     .nav-overlay {
-        top: -50px;
+        top: -50px !important;
+    }
+    
+    .fs-xlarge {
+        font-size: 45px !important;
+    }
+
+    .w-md-75 {
+        width: 75%;
     }
 }
 
 @media (min-width: 768px) {
     .nav-overlay {
-        top: -100px;
+        top: -35px !important;
+    }
+
+    .w-md-75 {
+        width: 100%;
+    }
+    
+    .fs-xlarge {
+        font-size: 30px !important;
+    }
+}
+
+@media (min-width: 850px) {
+    .nav-overlay {
+        top: -60px !important;
     }
 }
 
 @media (min-width: 992px) {
     .nav-overlay {
-        top: -150px;
+        top: -50px !important;
+    }
+
+    .fs-xlarge {
+        font-size: 45px !important;
     }
 }
 
 @media (min-width: 1200px) {
     .nav-overlay {
-        top: -200px;
+        top: -100px !important;
+    }
+
+    .fs-xlarge {
+        font-size: 55px !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .nav-overlay {
+        top: -150px !important;
+    }
+}
+
+@media (min-width: 1700px) {
+    .nav-overlay {
+        display: none;
     }
 }
