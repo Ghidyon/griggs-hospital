@@ -99,6 +99,10 @@ body {
     font-size: 30px !important;
 }
 
+.fs-small {
+    font-size: 14px;
+}
+
 /* Background and Colors */
 .bg-color {
     background-color: var(--bgColor);
@@ -154,6 +158,10 @@ body {
     background-color: #FF8F00;
 }
 
+.w-sm-25 {
+    width: 35%;
+}
+
 .w-md-75 {
     width: 75%;
 }
@@ -193,6 +201,12 @@ body {
     transform: rotateZ(45deg);
 }
 
+/* Services */
+.services-box {
+    width: 110px;
+    margin: 0 auto;
+}
+
 /* Blog */
 .blog-image {
     height: 200px;
@@ -224,6 +238,10 @@ footer {
         font-size: 45px !important;
     }
 
+    .w-sm-25 {
+        width: 35%;
+    }
+
     .w-md-75 {
         width: 75%;
     }
@@ -244,6 +262,10 @@ footer {
     
     .fs-xlarge {
         font-size: 30px !important;
+    }
+
+    .services-box {
+        width: 130px;
     }
 }
 
