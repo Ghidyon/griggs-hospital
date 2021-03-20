@@ -175,7 +175,7 @@ body {
 }
 
 .logo {
-    width: 30px;
+    width: 90px;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
@@ -258,7 +258,7 @@ footer {
     }
 
     .logo {
-        width: 40px;
+        width: 100px;
     }
 
     .w-md-75 {
