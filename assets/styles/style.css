@@ -100,7 +100,11 @@ body {
 }
 
 .fs-small {
-    font-size: 14px;
+    font-size: 14px !important;
+}
+
+.fs-tiny {
+    font-size: 12px !important;
 }
 
 /* Background and Colors */
@@ -164,6 +168,14 @@ body {
 
 .w-md-75 {
     width: 75%;
+}
+
+.text-silver {
+    color: #c0c0c0;
+}
+
+a.text-silver:hover {
+    color:#ffffff;
 }
 
 /* Nav Styling */
