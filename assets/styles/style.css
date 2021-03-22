@@ -182,7 +182,7 @@ a.text-silver:hover {
 .nav-overlay {
     position: absolute;
     width: 100%;
-    top: -20px;
+    top: 0;
     z-index: -1000;
 }
 
@@ -251,10 +251,6 @@ footer {
 /* Responsive Styling */
 
 @media (min-width: 576px) {
-    .nav-overlay {
-        top: -50px !important;
-    }
-    
     .fs-xlarge {
         font-size: 45px !important;
     }
@@ -270,7 +266,7 @@ footer {
 
 @media (min-width: 768px) {
     .nav-overlay {
-        top: -35px !important;
+        top: -5px !important;
     }
 
     .logo {
@@ -296,13 +292,13 @@ footer {
 
 @media (min-width: 850px) {
     .nav-overlay {
-        top: -60px !important;
+        top: -10px !important;
     }
 }
 
 @media (min-width: 992px) {
     .nav-overlay {
-        top: -50px !important;
+        top: -10px !important;
     }
 
     .fs-xlarge {
@@ -312,7 +308,7 @@ footer {
 
 @media (min-width: 1200px) {
     .nav-overlay {
-        top: -100px !important;
+        top: -60px !important;
     }
 
     .fs-xlarge {
@@ -322,7 +318,7 @@ footer {
 
 @media (min-width: 1400px) {
     .nav-overlay {
-        top: -150px !important;
+        top: -90px !important;
     }
 }
 
