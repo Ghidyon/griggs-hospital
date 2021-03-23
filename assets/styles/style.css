@@ -257,6 +257,29 @@ footer {
     color: #ffffff;
 }
 
+/* Hover Ball Effect */
+.nav-item {
+    position: relative;
+}
+
+.hover-ball {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.nav-item > a:hover + img.hover-ball:not(.active) {
+    bottom: -5px;
+    opacity: 1;
+}
+
+.nav-item > img.hover-ball.active {
+    opacity: 1;
+    bottom: -5px;
+}
+
 /* Responsive Styling */
 
 @media (min-width: 576px) {
