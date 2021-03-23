@@ -248,6 +248,15 @@ footer {
     width: 100px;
 }
 
+.fab {
+    font-size: 20px;
+    transition: color .3s ease;
+}
+
+.fab:hover {
+    color: #ffffff;
+}
+
 /* Responsive Styling */
 
 @media (min-width: 576px) {
