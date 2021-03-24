@@ -234,6 +234,17 @@ a.text-silver:hover {
     height: 100%;
 }
 
+/* Modal/Contact Form */
+.field {
+    background: inherit;
+    outline: none;
+    border: none;
+    padding: .6rem 1.5rem;
+    border-radius: 20px;
+    box-shadow: inset 4px 4px 4px #cbced1,
+                inset -4px -4px 4px #ffffff;
+}
+
 /* Footer */
 footer {
     background-color: #4A5568;
