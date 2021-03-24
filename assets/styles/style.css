@@ -178,6 +178,14 @@ a.text-silver:hover {
     color:#ffffff;
 }
 
+.radius-20 {
+    border-radius: 20px;
+}
+
+.radius-10 {
+    border-radius: 10px;
+}
+
 /* Nav Styling */
 .nav-overlay {
     position: absolute;
@@ -239,17 +247,19 @@ a.text-silver:hover {
     background: inherit;
     outline: none;
     border: none;
-    padding: .6rem 1.5rem;
+    padding: .6rem 1.4rem;
     box-shadow: inset 4px 4px 4px #cbced1,
                 inset -4px -4px 4px #ffffff;
 }
 
-.radius-20 {
-    border-radius: 20px;
+/* Remove default buttons on number input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
-.radius {
-    border-radius: 10px;
+input[type=number] {
+    -moz-appearance: textfield;
 }
 
 /* Footer */
