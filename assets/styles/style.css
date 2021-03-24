@@ -1,4 +1,4 @@
-*{
+* {
     list-style: none;
 }
 
@@ -8,54 +8,43 @@
 }
 
 /* Fonts */
+
 /* Regular font */
+
 @font-face {
     font-family: 'Helvetica Now Text';
     src: url('../fonts/Helvetica/HelveticaNowText/HelveticaNowText-Regular.eot');
-    src: local('Helvetica Now Text  Regular'), local('HelveticaNowText-Regular'),
-        url('../fonts/Helvetica/HelveticaNowText/HelveticaNowText-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Helvetica/HelveticaNowText/HelveticaNowText-Regular.woff2') format('woff2'),
-        url('../fonts/Helvetica/HelveticaNowText/HelveticaNowText-Regular.woff') format('woff'),
-        url('../fonts/Helvetica/HelveticaNowText/HelveticaNowText-Regular.ttf') format('truetype');
+    src: local('Helvetica Now Text  Regular'), local('HelveticaNowText-Regular'), url('../fonts/Helvetica/HelveticaNowText/HelveticaNowText-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica/HelveticaNowText/HelveticaNowText-Regular.woff2') format('woff2'), url('../fonts/Helvetica/HelveticaNowText/HelveticaNowText-Regular.woff') format('woff'), url('../fonts/Helvetica/HelveticaNowText/HelveticaNowText-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 /* Extra Bold font */
+
 @font-face {
     font-family: 'Helvetica Now Display';
     src: url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.eot');
-    src: local('Helvetica Now Display ExtBd'), local('HelveticaNowDisplay-ExtraBold'),
-        url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.woff2') format('woff2'),
-        url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.woff') format('woff'),
-        url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.ttf') format('truetype');
+    src: local('Helvetica Now Display ExtBd'), local('HelveticaNowDisplay-ExtraBold'), url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.woff2') format('woff2'), url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.woff') format('woff'), url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
 
 /* Bold font */
+
 @font-face {
     font-family: 'Helvetica Now Display';
     src: url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Bold.eot');
-    src: local('Helvetica Now Display Bold'), local('HelveticaNowDisplay-Bold'),
-        url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Bold.woff2') format('woff2'),
-        url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Bold.woff') format('woff'),
-        url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Bold.ttf') format('truetype');
+    src: local('Helvetica Now Display Bold'), local('HelveticaNowDisplay-Bold'), url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Bold.woff2') format('woff2'), url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Bold.woff') format('woff'), url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 /* Light font */
+
 @font-face {
     font-family: 'Helvetica Now Display';
     src: url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Light.eot');
-    src: local('Helvetica Now Display Light'), local('HelveticaNowDisplay-Light'),
-        url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Light.woff2') format('woff2'),
-        url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Light.woff') format('woff'),
-        url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Light.ttf') format('truetype');
+    src: local('Helvetica Now Display Light'), local('HelveticaNowDisplay-Light'), url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Light.woff2') format('woff2'), url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Light.woff') format('woff'), url('../fonts/Helvetica/HelveticaNowDisplay/HelveticaNowDisplay-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
@@ -68,7 +57,9 @@ body {
 }
 
 /* ######### Utilities ########## */
+
 /* Fonts */
+
 .font-helvetica-regular {
     font-family: 'Helvetica Now Text', sans-serif;
     font-weight: normal;
@@ -95,6 +86,7 @@ body {
 }
 
 /* Text Size */
+
 .fs-xlarge {
     font-size: 30px !important;
 }
@@ -108,6 +100,7 @@ body {
 }
 
 /* Background and Colors */
+
 .bg-color {
     background-color: var(--bgColor);
 }
@@ -117,30 +110,26 @@ body {
 }
 
 /* Neumorphic Design */
+
 .outer-neu-shadow {
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25),
-                -4px -4px 8px rgb(255, 255, 255);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25), -4px -4px 8px rgb(255, 255, 255);
 }
 
 .text-shadow {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
-                -2px -2px 4px rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgb(255, 255, 255);
 }
 
 .btn-neu-shadow, .neu-shadow {
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25),
-                -4px -4px 8px rgb(255, 255, 255);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25), -4px -4px 8px rgb(255, 255, 255);
     cursor: pointer;
 }
 
 .btn-neu-shadow:hover {
-    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25),
-                inset -2px -2px 4px rgb(255, 255, 255, 0.25);
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25), inset -2px -2px 4px rgb(255, 255, 255, 0.25);
 }
 
 .neu-shadow.active, .neu-shadow:hover {
-    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25),
-                inset -2px -2px 4px rgb(255, 255, 255);
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25), inset -2px -2px 4px rgb(255, 255, 255);
 }
 
 .rounded-4 {
@@ -175,7 +164,7 @@ body {
 }
 
 a.text-silver:hover {
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .radius-20 {
@@ -187,6 +176,7 @@ a.text-silver:hover {
 }
 
 /* Nav Styling */
+
 .nav-overlay {
     position: absolute;
     width: 100%;
@@ -200,8 +190,7 @@ a.text-silver:hover {
 
 .dropdown-item:hover, .dropdown-item:focus {
     background-color: inherit !important;
-    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15),
-                inset -2px -2px 4px rgb(255, 255, 255);
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.15), inset -2px -2px 4px rgb(255, 255, 255);
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -222,17 +211,20 @@ a.text-silver:hover {
 }
 
 /* Header */
+
 .header-image {
     filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.25)) drop-shadow(-3px -3px 6px rgb(255, 255, 255, 0.25));
 }
 
 /* Services */
+
 .services-box {
     width: 110px;
     margin: 0 auto;
 }
 
 /* Blog */
+
 .blog-image {
     height: 200px;
 }
@@ -263,6 +255,7 @@ input[type=number] {
 }
 
 /* Footer */
+
 footer {
     background-color: #4A5568;
 }
@@ -286,6 +279,7 @@ footer {
 }
 
 /* Hover Ball Effect */
+
 .nav-item {
     position: relative;
 }
@@ -298,12 +292,12 @@ footer {
     transition: all .3s ease;
 }
 
-.nav-item > a:hover + img.hover-ball:not(.active) {
+.nav-item>a:hover+img.hover-ball:not(.active) {
     bottom: -5px;
     opacity: 1;
 }
 
-.nav-item > img.hover-ball.active {
+.nav-item>img.hover-ball.active {
     opacity: 1;
     bottom: -5px;
 }
@@ -314,11 +308,9 @@ footer {
     .fs-xlarge {
         font-size: 45px !important;
     }
-
     .w-sm-25 {
         width: 35%;
     }
-
     .w-md-75 {
         width: 75%;
     }
@@ -328,23 +320,18 @@ footer {
     .nav-overlay {
         top: -5px !important;
     }
-
     .logo {
         width: 100px;
     }
-
     .footer-logo {
         width: 150px;
     }
-
     .w-md-75 {
         width: 100%;
     }
-    
     .fs-xlarge {
         font-size: 30px !important;
     }
-
     .services-box {
         width: 130px;
     }
@@ -360,7 +347,6 @@ footer {
     .nav-overlay {
         top: -10px !important;
     }
-
     .fs-xlarge {
         font-size: 45px !important;
     }
@@ -370,7 +356,6 @@ footer {
     .nav-overlay {
         top: -60px !important;
     }
-
     .fs-xlarge {
         font-size: 55px !important;
     }
@@ -386,4 +371,80 @@ footer {
     .nav-overlay {
         display: none;
     }
+}
+
+#meet {
+    margin-top: 30px;
+}
+
+#meet h2 {
+    color: white;
+    text-shadow: #359c9d 3px 3px;
+    margin-bottom: 40px;
+}
+
+#meet .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#meet .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#meet img {
+    max-width: 400px;
+    padding-left: 150px;
+}
+
+#meet2 {
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+#meet2 .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#meet2 .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#meet2 img {
+    max-width: 600px;
+    padding-right: 150px;
+    max-height: 700px;
+}
+
+#cardmeet {
+    background-color: #6eb5c500;
+    color: #155c5e;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#meet3 {
+    margin-bottom: 30px;
+}
+
+#meet3 .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#meet3 .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#meet3 img {
+    max-width: 400px;
+    padding-bottom: 55px;
+    padding-left: 150px;
 }
