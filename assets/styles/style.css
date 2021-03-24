@@ -240,9 +240,16 @@ a.text-silver:hover {
     outline: none;
     border: none;
     padding: .6rem 1.5rem;
-    border-radius: 20px;
     box-shadow: inset 4px 4px 4px #cbced1,
                 inset -4px -4px 4px #ffffff;
+}
+
+.radius-20 {
+    border-radius: 20px;
+}
+
+.radius {
+    border-radius: 10px;
 }
 
 /* Footer */
