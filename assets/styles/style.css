@@ -88,7 +88,7 @@ body {
 /* Text Size */
 
 .fs-xlarge {
-    font-size: 30px !important;
+    font-size: 40px !important;
 }
 
 .fs-small {
@@ -156,7 +156,7 @@ body {
 }
 
 .w-md-75 {
-    width: 75%;
+    width: 250px;
 }
 
 .text-silver {
@@ -180,7 +180,7 @@ a.text-silver:hover {
 .nav-overlay {
     position: absolute;
     width: 100%;
-    top: 0;
+    top: 50px;
     z-index: -1000;
 }
 
@@ -305,6 +305,10 @@ footer {
 /* Responsive Styling */
 
 @media (min-width: 576px) {
+    .nav-overlay {
+        top: 0 !important;
+    }
+
     .fs-xlarge {
         font-size: 45px !important;
     }
@@ -312,7 +316,7 @@ footer {
         width: 35%;
     }
     .w-md-75 {
-        width: 75%;
+        width: 350px;
     }
 }
 
