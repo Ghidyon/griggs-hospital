@@ -152,7 +152,7 @@ body {
 }
 
 .w-sm-25 {
-    width: 35%;
+    width: 50%;
 }
 
 .w-md-75 {
@@ -316,9 +316,9 @@ footer {
     .fs-xlarge {
         font-size: 45px !important;
     }
-    .w-sm-25 {
+    /* .w-sm-25 {
         width: 35%;
-    }
+    } */
     .w-md-75 {
         width: 350px;
     }
