@@ -221,10 +221,16 @@ a.text-silver:hover {
 }
 
 /* Services */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    align-items: center;
+    gap: 2rem;
+}
 
 .services-box {
-    width: 110px;
-    margin: 0 auto;
+    /* width: 110px; */
+    /* margin: 0 auto; */
 }
 
 /* Blog */
@@ -341,7 +347,7 @@ footer {
         font-size: 30px !important;
     }
     .services-box {
-        width: 130px;
+        /* width: 130px; */
     }
 }
 
