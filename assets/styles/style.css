@@ -336,6 +336,7 @@ footer {
     }
     .w-md-75 {
         width: 100%;
+        border: 1px solid black;
     }
     .fs-xlarge {
         font-size: 30px !important;
@@ -365,7 +366,7 @@ footer {
         top: -60px !important;
     }
     .fs-xlarge {
-        font-size: 55px !important;
+        font-size: 54px !important;
     }
 }
 
