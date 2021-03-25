@@ -228,11 +228,6 @@ a.text-silver:hover {
     gap: 2rem;
 }
 
-.services-box {
-    /* width: 110px; */
-    /* margin: 0 auto; */
-}
-
 /* Blog */
 
 .blog-image {
@@ -345,9 +340,6 @@ footer {
     }
     .fs-xlarge {
         font-size: 30px !important;
-    }
-    .services-box {
-        /* width: 130px; */
     }
 }
 
