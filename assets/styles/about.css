@@ -32,6 +32,7 @@
   
   .team .member .pic {
     overflow: hidden;
+    border-top-left-radius: 30px;
   }
   
   .team .member .member-info {
