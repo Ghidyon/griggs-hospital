@@ -9,7 +9,6 @@ const serviceContents = document.getElementsByClassName('service-content');
 
 // Call all service boxes into an array
 const serviceBoxes = boxContainer.getElementsByClassName('services-box');
-console.log(serviceBoxes);
 
 // Loop through array of service boxes and add function to display service contents on each click
 for (let i = 0; i < serviceBoxes.length; i++) {
