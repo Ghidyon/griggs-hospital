@@ -1,7 +1,3 @@
-* {
-    list-style: none;
-}
-
 :root {
     --bgColor: #EBF3FF;
     --priColor: #00928F;
@@ -221,6 +217,7 @@ a.text-silver:hover {
 }
 
 /* Services */
+
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -283,8 +280,11 @@ footer {
     color: #ffffff;
 }
 
-/* Hover Ball Effect */
+footer ul li {
+    list-style: none;
+}
 
+/* Hover Ball Effect */
 .nav-item {
     position: relative;
 }
