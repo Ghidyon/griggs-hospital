@@ -20,6 +20,7 @@
 </head>
 
 <body>
+  
   <!-- Navbar -->
   <nav
     class="navbar sticky-top navbar-expand-md navbar-light bg-color shadow px-md-5 px-3 font-helvetica-bold link-dark text-decoration-none">
@@ -68,13 +69,21 @@
   </nav>
 
   <!-- Meet the CMD -->
- <!--  <section id="meet" class="border">
+  <section id="meet" class="border">
     <div class="container">
-      <div class="row my-5">
+      <div class="row py-5">
+        <!-- data-aos="zoom-in" data-aos-delay="300" -->
+          <div class="col-12 col-md-3 col-lg-4 img-col border d-flex flex-column align-items-center justify-content-center">
+            <div class="outer-rounded-shape image-neu-shadow rounded-circle d-flex flex-column align-items-center justify-content-center">
+              <div class="inner-rounded-shape rounded-circle outer-neu-shadow overflow-hidden">
+                <img src="/assets/images/dr-kay.png" class="w-100 rounded-circle" alt="Dr. Kanayo Ubesie" id="kay"/>
+              </div>
+            </div>
+          </div>
           <div class="col-12 col-md-9 col-lg-8 border">
             <h2 class="font-helvetica-bold text-shadow mb-5">Meet Kanayo E. Ubesie, MD, FACOG</h2>
-            <div class="border-0 bg-color outer-neu-shadow radius-10 p-4">
-              <div class="">
+            <div class="card border-0 bg-color outer-neu-shadow radius-10 p-4">
+              <div class="card-body">
                 <p class="font-helvetica-light text-justify">
                   Kanayo E. Ubesie, MD, FACOG earned his medical degree (MD) at
                   the prestigious University of Texas, Southwestern Medical
@@ -85,7 +94,7 @@
                   University of Texas, Graduate School of Biomedical Sciences,
                   Houston, Texas, USA.
                 </p>
-
+  
                 <p class="font-helvetica-light text-justify">
                   After receiving his medical degree, Dr. Ubesie spent four
                   years in specialist training in Obstetrics and Gynecology at
@@ -98,13 +107,9 @@
               </div>
             </div>
           </div>
-          <!-- data-aos="zoom-in" data-aos-delay="300" -->
-          <!-- <div class="col-md-3 col-lg-4 img-col border">
-            <img src="/assets/images/dr-kay.png" class="img-fluid border" alt="Dr. Kanayo Ubesie" id="kay" />
-          </div> -->
-  <!--    </div>
+        </div>
     </div>
-  </section> -->
+  </section>
 
   <section id="meet2">
     <div class="container">
@@ -195,9 +200,9 @@
           </h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-
-        <div class="modal-body">
-          <form action="" class="font-helvetica-regular">
+        
+        <form action="" class="font-helvetica-regular">
+          <div class="modal-body">
             <div class="mb-3">
               <label for="full_name" class="form-label font-helvetica-bold">Full Name</label>
               <input type="text" class="d-block w-100 field font-helvetica-regular radius-20" id="full_name" />
@@ -216,16 +221,17 @@
               <textarea type="text" class="d-block w-100 field font-helvetica-regular radius-10" id="message"
                 placeholder="Type your message" rows="3"></textarea>
             </div>
-          </form>
-        </div>
+          </div>
 
-        <div class="modal-footer">
-          <button type="submit"
-            class="primary-color text-decoration-none text-white px-4 py-2 rounded-pill btn-neu-shadow border-0 font-helvetica-bold"
-            data-bs-dismiss="modal">
-            Submit
-          </button>
-        </div>
+          <div class="modal-footer">
+            <button type="submit"
+              class="primary-color text-decoration-none text-white px-4 py-2 rounded-pill btn-neu-shadow border-0 font-helvetica-bold"
+              data-bs-dismiss="modal">
+              Submit
+            </button>
+          </div>
+        </form>
+
       </div>
     </div>
   </div>
