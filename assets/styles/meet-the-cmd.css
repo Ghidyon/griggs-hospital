@@ -2,74 +2,60 @@
     margin-top: 30px;
 }
 
-#meet h2 {
-    color: white;
-    text-shadow: #359c9d 3px 3px;
-    margin-bottom: 40px;
-}
-
-#meet .col {
+/* #meet .col {
     justify-content: center;
     flex-direction: column;
     display: flex;
-}
-
+} */
+/* 
 #meet .img-col {
     justify-content: flex-end;
     margin-top: 100px;
-}
-
+} */
+/* 
 #meet img {
     max-width: 400px;
-    padding-left: 150px;
-}
+} */
 
-#meet2 {
+/* #meet2 {
     margin-top: 1px;
     margin-bottom: 0px;
 }
-
-#meet2 .col {
+ */
+/* #meet2 .col {
     justify-content: center;
     flex-direction: column;
     display: flex;
-}
+} */
 
-#meet2 .img-col {
-    justify-content: flex-end;
-    margin-top: 100px;
-}
+/* #meet2 .img-col {
+     justify-content:flex-end;
+    margin-top: 100px; 
+} */
 
-#meet2 img {
+/* #meet2 img {
     max-width: 600px;
-    padding-right: 150px;
-    max-height: 700px;
-}
-
-#cardmeet {
-    background-color: #6eb5c500;
-    color: #155c5e;
-    padding: 30px;
-    border-radius: 20px;
-}
+    /* padding-right: 150px; */
+    /* max-height: 700px;
+} */
 
 #meet3 {
     margin-bottom: 30px;
 }
 
-#meet3 .col {
+/* #meet3 .col {
     justify-content: center;
     flex-direction: column;
     display: flex;
-}
+} */
 
-#meet3 .img-col {
+/* #meet3 .img-col {
     justify-content: flex-end;
     margin-top: 100px;
-}
+} */
 
 #meet3 img {
     max-width: 400px;
-    padding-bottom: 55px;
-    padding-left: 150px;
+    /* padding-bottom: 55px;
+    padding-left: 150px; */
 }
