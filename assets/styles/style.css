@@ -50,6 +50,7 @@ body {
     font-family: 'Helvetica Now Text', sans-serif;
     font-style: normal;
     font-weight: normal;
+    overflow-x: hidden;
 }
 
 /* ######### Utilities ########## */
@@ -145,6 +146,10 @@ body {
 .inner-rounded-shape {
     width: 200px;
     height: 200px;
+}
+
+.cmd-image {
+    z-index: -100;
 }
 
 /* Borders */
