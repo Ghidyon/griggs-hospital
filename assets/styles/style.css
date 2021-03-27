@@ -148,10 +148,6 @@ body {
     height: 200px;
 }
 
-.cmd-image {
-    z-index: -100;
-}
-
 /* Borders */
 
 .rounded-4 {
