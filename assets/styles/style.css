@@ -135,7 +135,11 @@ body {
 
 .image-neu-shadow {
     box-shadow: 6px 6px 12px rgba(180, 193, 213, 0.5), -6px -6px 12px rgb(255, 255, 255, 0.8),
-                inset 5px 5px 10px rgba(180, 193, 213, 0.5), inset -5px -5px 10px rgb(255, 255, 255)!important;
+                inset 10px 10px 20px rgba(180, 193, 213, 0.5), inset -10px -10px 20px rgb(255, 255, 255)!important;
+}
+
+.image-inner-neu-shadow {
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.25), -8px -8px 16px rgb(255, 255, 255)!important;
 }
 
 .outer-rounded-shape {
