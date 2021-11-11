@@ -15,4 +15,4 @@
 ### Home Page
 ![Home Page](/assets/images/homepage.png "Griggs Homepage")
 
-_Any other important guideline would be displayed here._
+[View Live](https://www.griggsspecialisthospital.com.ng/)
